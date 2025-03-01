@@ -1,0 +1,6 @@
+librosa
+soundfile
+matplotlib
+torchcrepe
+transformers
+yaml

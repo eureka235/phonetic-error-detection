@@ -1,0 +1,61 @@
+ (;; vowel or consonant
+   (vc + -)  
+   ;; vowel length: short long dipthong schwa NA
+   (vlng s l d a 0)
+   ;; vowel height: high mid low
+   (vheight 1 2 3 0)
+   ;; vowel frontness: front mid back
+   (vfront 1 2 3 0)
+   ;; lip rounding
+   (vrnd + - 0) 
+   ;; consonant type: stop fricative affricate nasal lateral approximant
+   (ctype s f a n l r 0)
+   ;; place of articulation: labial alveolar palatal labio-dental
+   ;;                         dental velar glottal
+   (cplace l a p b d v g 0)
+   ;; consonant voicing
+   (cvox + - 0)
+   )
+  ;; Phone set members
+  (
+   (aa  +   l   3   3   -   0   0   0) ;; father
+   (ae  +   s   3   1   -   0   0   0) ;; fat
+   (ah  +   s   2   2   -   0   0   0) ;; but
+   (ao  +   l   3   3   +   0   0   0) ;; lawn
+   (aw  +   d   3   2   -   0   0   0) ;; how
+   (ay  +   d   3   2   -   0   0   0) ;; hide
+   (b   -   0   0   0   0   s   l   +)
+   (ch  -   0   0   0   0   a   p   -)
+   (d   -   0   0   0   0   s   a   +)
+   (dh  -   0   0   0   0   f   d   +)
+   (eh  +   s   2   1   -   0   0   0) ;; get
+   (er  +   a   2   2   -   r   0   0) ;; always followed by r (er-r == axr)
+   (ey  +   d   2   1   -   0   0   0) ;; gate
+   (f   -   0   0   0   0   f   b   -)
+   (g   -   0   0   0   0   s   v   +)
+   (hh  -   0   0   0   0   f   g   -)
+   (ih  +   s   1   1   -   0   0   0) ;; bit
+   (iy  +   l   1   1   -   0   0   0) ;; beet
+   (jh  -   0   0   0   0   a   p   +)
+   (k   -   0   0   0   0   s   v   -)
+   (l   -   0   0   0   0   l   a   +)
+   (m   -   0   0   0   0   n   l   +)
+   (n   -   0   0   0   0   n   a   +)
+   (ng  -   0   0   0   0   n   v   +)
+   (ow  +   d   2   3   +   0   0   0) ;; lone
+   (oy  +   d   2   3   +   0   0   0) ;; toy
+   (p   -   0   0   0   0   s   l   -)
+   (r   -   0   0   0   0   r   a   +)
+   (s   -   0   0   0   0   f   a   -)
+   (sh  -   0   0   0   0   f   p   -)
+   (t   -   0   0   0   0   s   a   -)
+   (th  -   0   0   0   0   f   d   -)
+   (uh  +   s   1   3   +   0   0   0) ;; full
+   (uw  +   l   1   3   +   0   0   0) ;; fool
+   (v   -   0   0   0   0   f   b   +)
+   (w   -   0   0   0   0   r   l   +)
+   (y   -   0   0   0   0   r   p   +)
+   (z   -   0   0   0   0   f   a   +)
+   (zh  -   0   0   0   0   f   p   +)
+   (sil -   0   0   0   0   0   0   -)
+  )
