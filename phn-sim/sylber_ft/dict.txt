@@ -1,5 +1,0 @@
-CMU_PHONEME = ["SIL", "OW", "UW", "EY", "AW", "AH", "AO", "AY", "EH", 
-               "K", "NG", "F", "JH", "M", "CH", "IH", "UH", "HH",
-               "L", "AA", "R", "TH", "AE", "D", "Z", "OY", "DH", 
-               "IY", "B", "W", "S", "T", "SH", "ZH", "ER", "V", 
-               "Y", "N", "G", "P"]
